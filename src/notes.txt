@@ -1,0 +1,38 @@
+
+2015-06-14 16:50:41
+----------------------------------------
+Strategy:
+Use EMT conduit for the tubes instead of PVC.  Same cost but much greater
+rigidity.
+
+Assumptions:
+
+    3/4 in EMT is 0.922 in / 23.4 mm OD
+    1/2 in EMT is 0.706 in / 17.9 mm OD
+
+    bearings:
+        25 x 42 x 9  61905-2RS bearing (for 3/4 in EMT)
+        20 x 42 x 12 6004-2RS bearing (for 1/2 in EMT)
+        * bearings have same OD to minimize number of printed parts to mod
+
+
+axis_gear:
+    23.5mm + 0.5mm tolerance -> 24mm ID hole
+    keep mounitng ring same OD for gear strength (10mm ring -> 14mm)
+
+axis_gear_spacer:
+    25mm ID hole for 0.5mm extra clearance
+    enlarge pocket to save plastic volume
+
+axis_side:
+    42mm + 0.4mm tol -> 42.4mm ID hole for bearing, 21.2mm radius
+    (only need one bearing fitted)
+
+axis_bushing:
+    12.4mm radius hole
+    size 021 o-ring from Parco datasheet, nominal OD 1-1/16in 
+
+azimuth_axis_pillar:
+    20mm dia to fit inside 20.9mm ID of EMT
+
+
